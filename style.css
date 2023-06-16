@@ -302,7 +302,7 @@ section > span {
     gap: 20px;
   }
   .game-room {
-    gap: 5px;
+    gap: 1;
   }
   section > span {
     height: 60px;
