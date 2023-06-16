@@ -270,7 +270,7 @@ section > span {
   .play-mode-options,
   .settings-box {
     width: 100%;
-    gap: 1px;
+    gap: 10px;
   }
   .mode-instruction {
     margin-top: 0;
