@@ -295,7 +295,7 @@ section > span {
   .play-mode-options,
   .settings-box {
     width: 100%;
-    gap: 0;
+    gap: 1;
     flex-direction: column;
   }
   .playersdorm {
