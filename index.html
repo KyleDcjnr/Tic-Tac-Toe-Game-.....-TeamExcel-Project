@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
+    <title>Tic Tac Toe | TeamExcel</title>
+  </head>
+  <body>
+    <!--Start page  -->
+    <div class="container">
+      <div class="play-mode">
+        <div class="gameicon">
+           <h1 class="iconX">X</h1>
+           <h1 class="iconO">O</h1>
+        </div>
+        <div class="mode-instruction">
+          <div class="title">Choose your play mode.</div>
+          <div class="play-mode-options">
+            <button class="modes cpu">
+                With CPU
+            </button>
+            <button class="modes friends">With Friend</button>
+          </div>
+        </div>
+        <div class="settings-box">
+          <button class="setting">
+            &sext;
+          </button>
+        </div>
+      </div>
+
+      <!-- players section -->
+      <div class="select-player">
+        <form action="" class="playersdorm">
+            <Label for="characters">
+              Pick your weapon 
+            </Label>
+               <br>
+               <div class="players">
+                 <h1 class="playericon X-select">
+                   X
+                   <input type="radio" name="characters" id="Xplayer" value="">
+                 </h1>
+                 <h1 class="playericon O-select">
+                   O
+                   <input type="radio" name="characters" id="Oplayer" value=""> 
+                 </h1>
+               </div>
+              <div class="btn">
+                <button class="continue-btn">
+                  Continue  
+            </button>
+          </div>
+        </form>
+      </div>
+
+       <!-- Play-room -->
+      <div class="game-room">
+        <div class="playersdetails">
+          <span class="player-X">playerX</span>
+          <span class="scores"> 
+             <p class="xscores">0</p>
+             <p>-</p>
+             <p class="oscores">0</p>
+          </span>
+          <span class="player-O">playerO</span>
+        </div>
+        <div class="game-area">
+         <section class="a">
+            <span class="box1"></span>
+            <span class="box2"></span>
+            <span class="box3 b"></span>
+          </section>
+          <section class="">
+            <span class="box4"></span>
+            <span class="box5"></span>
+            <span class="box6 b"></span>
+          </section>
+          <section class="c">
+            <span class="box7"></span>
+            <span class="box8"></span>
+            <span class="box9 b"></span>
+        </div>
+        <div class="settings-box">
+         <button class="setting">
+           &sext;
+          </button>
+       </div>
+       <!-- Result box -->
+       <div class="result-box">
+          <div class="notifier">
+              <div class="close">
+                &circleddash;
+              </div>            
+             <h1>Player X Wins</h1>
+             <span class="scores">
+               <p class="xscores">0</p>
+               <p>-</p>
+               <p class="oscores">0</p>
+             </span>
+          </div>
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
