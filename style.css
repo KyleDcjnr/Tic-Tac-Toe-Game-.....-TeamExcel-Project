@@ -213,7 +213,9 @@ section > span {
 .c > span {
   border-bottom: none;
 }
-
+.modes{
+  margin-bottom: 10px;
+}
 .result-box {
   background-color: chocolate;
   height: 30%;
@@ -268,7 +270,7 @@ section > span {
   .play-mode-options,
   .settings-box {
     width: 100%;
-    gap: 10px;
+    gap: 1px;
   }
   .mode-instruction {
     margin-top: 0;
@@ -285,7 +287,7 @@ section > span {
     width: 45%;
   }
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 550px) {
   .play-mode,
   .select-player,
   .game-room,
@@ -295,11 +297,20 @@ section > span {
   .play-mode-options,
   .settings-box {
     width: 100%;
-    gap: 1;
+    gap: 5%;
     flex-direction: column;
   }
+  h1{
+    font-size: 4em;
+  }
+  .mode-instruction > .title , .title{
+    font-size: 15px;
+  }
+  .modes{
+    margin-bottom: 0px;
+  }
   .playersdorm {
-    gap: 20px;
+    gap: 10px;
   }
   .game-room {
     gap: 1;
@@ -307,4 +318,16 @@ section > span {
   section > span {
     height: 60px;
   }
+  .playersdetails > span, .notifier > span > p, .notifier > h1 {
+    font-size: 20px;
+  }
+
+  .notifier > .close {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .notifier{
+    gap: 0;
+  }
+
 }
