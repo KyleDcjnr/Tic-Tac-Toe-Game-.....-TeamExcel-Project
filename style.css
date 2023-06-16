@@ -14,13 +14,13 @@
 
 /* Display Configurations */
 .play-mode {
-  display: none;
+  display: flex;
 }
 .select-player {
   display: none;
 }
 .game-room {
-  display: flex;
+  display: none;
 }
 .result-box {
   display: flex;
