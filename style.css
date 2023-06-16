@@ -17,10 +17,10 @@
   display: none;
 }
 .select-player {
-  display: flex;
+  display: none;
 }
 .game-room {
-  display: none;
+  display: flex;
 }
 .result-box {
   display: flex;
